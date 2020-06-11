@@ -16,10 +16,10 @@ import java.util.concurrent.BlockingQueue;
 
 public class TwitterClient {
 
-    private String consumerKey = "bGltjDfN69zflyVY4qTQQw2nq";
-    private String consumerSecret = "MreNmNOqZBGI8TgDlmcx04MK9Unfe9E6kEIgfm8CBMCUmuIhns";
-    private String token = "50991507-Mjhlj9MgTCMHquUALle02Q3ZkFgaNFoUdI8FBV7db";
-    private String secret = "j7yWYNau3et1IFDPSwFk2Etmf3sOYTvtYOvycVKEyLunW";
+    private String consumerKey = "";
+    private String consumerSecret = "";
+    private String token = "";
+    private String secret = "";
 
     public Client createTwitterClient(BlockingQueue<String> msgQueue) {
 
